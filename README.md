@@ -1,6 +1,4 @@
-# Transformers for Absolute Dummies
-
-**Building a Transformer: The Complete Guide from Paper to Production**
+## Building a Transformer: The Complete Guide from Paper to Production
 
 > *A Super-Friendly Tutorial for ML Engineers AND Teens*
 
