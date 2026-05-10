@@ -6,9 +6,6 @@
 
 **Author:** [Rimom Costa](mailto:rimomcosta@gmail.com)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
 ---
 
 ## What Makes This Tutorial Special?
@@ -38,67 +35,70 @@ This is **not** your typical AI tutorial. This is a complete, from-first-princip
 **Click on any chapter to jump directly to that section in the course!**
 
 ### Preparation
-- [Math Symbols Quick Reference](course.md#math-symbols-quick-reference-your-decoder-ring) - Your decoder ring for all the notation
+- [Introduction: What Are Transformers Really?](00-introduction.md#introduction-what-are-transformers-really) - The big-picture starting point
 
 ### Foundation (Chapters 0-4)
-- [**Chapter 0:** The Grand Vision](course.md#chapter-0-the-grand-vision) - What problem are we solving?
-- [**Chapter 1:** Building Our Vocabulary](course.md#chapter-1-building-our-vocabulary-the-dictionary) - The token dictionary
-- [**Chapter 2:** Tokenization](course.md#chapter-2-tokenization-chopping-text-into-pieces) - Byte-Pair Encoding (BPE) explained
-- [**Chapter 3:** Embeddings](course.md#chapter-3-embeddings-giving-numbers-meaning) - Giving numbers meaning
-- [**Chapter 4:** Positional Encoding](course.md#chapter-4-positional-encoding-teaching-word-order) - Teaching word order with sine waves
-  - [Part 1: Understanding the Core Problem](course.md#part-1-understanding-the-core-problem)
-  - [Part 2: Failed Attempts (Learning from Mistakes)](course.md#part-2-failed-attempts-learning-from-mistakes)
-  - [Part 3: The Breakthrough — Understanding Waves](course.md#part-3-the-breakthrough--understanding-waves)
-  - [Part 4: Building the Solution Step-by-Step](course.md#part-4-building-the-solution-step-by-step)
-  - [Part 5: Calculating Position Encodings (Hands-On!)](course.md#part-5-calculating-position-encodings-hands-on)
-  - [Part 6: Combining Position with Word Meaning](course.md#part-6-combining-position-with-word-meaning)
-  - [Part 7: Critical Question About Training](course.md#part-7-critical-question-about-training)
-  - [Part 8: Why This Solution Is Beautiful](course.md#part-8-why-this-solution-is-beautiful)
-  - [Part 9: Summary and Key Takeaways](course.md#part-9-summary-and-key-takeaways)
+- [**Chapter 0:** The Grand Vision](chapter-00-grand-vision.md#chapter-0-the-grand-vision) - What problem are we solving?
+- [**Chapter 1:** Building Our Vocabulary](chapter-01-building-our-vocabulary.md#chapter-1-building-our-vocabulary-the-dictionary) - The token dictionary
+- [**Chapter 2:** Tokenization](chapter-02-tokenization.md#chapter-2-tokenization-chopping-text-into-pieces) - Byte-Pair Encoding (BPE) explained
+- [**Chapter 3:** Embeddings](chapter-03-embeddings.md#chapter-3-embeddings-giving-numbers-meaning) - Giving numbers meaning
+- [**Chapter 4:** Positional Encoding](chapter-04-positional-encoding.md#chapter-4-positional-encoding-teaching-word-order) - Teaching word order with sine waves
+  - [Part 1: Understanding the Core Problem](chapter-04-positional-encoding.md#part-1-understanding-the-core-problem)
+  - [Part 2: Failed Attempts (Learning from Mistakes)](chapter-04-positional-encoding.md#part-2-failed-attempts-learning-from-mistakes)
+  - [Part 3: The Breakthrough — Understanding Waves](chapter-04-positional-encoding.md#part-3-the-breakthrough-—-understanding-waves)
+  - [Part 4: Building the Solution Step-by-Step](chapter-04-positional-encoding.md#part-4-building-the-solution-stepbystep)
+  - [Part 5: Calculating Position Encodings (Hands-On!)](chapter-04-positional-encoding.md#part-5-calculating-position-encodings-handson)
+  - [Part 6: Combining Position with Word Meaning](chapter-04-positional-encoding.md#part-6-combining-position-with-word-meaning)
+  - [Part 7: Critical Question About Training](chapter-04-positional-encoding.md#part-7-critical-question-about-training)
+  - [Part 8: Why This Solution Is Beautiful](chapter-04-positional-encoding.md#part-8-why-this-solution-is-beautiful)
+  - [Part 9: Summary and Key Takeaways](chapter-04-positional-encoding.md#part-9-summary-and-key-takeaways)
 
 ### Core Architecture (Chapters 5-10)
-- [**Chapter 5:** Multi-Head Self-Attention](course.md#chapter-5-multi-head-self-attention-the-heart) - The heart of transformers
-  - [Part 1: Understanding the Core Concept](course.md#part-1-understanding-the-core-concept)
-  - [Part 2: Multi-Head Attention (Why Multiple Perspectives?)](course.md#part-2-multi-head-attention-why-multiple-perspectives)
-  - [Part 3: The Mathematics (Step-by-Step Calculations)](course.md#part-3-the-mathematics-step-by-step-calculations)
-  - [Part 4: Computing Similarity (The Dot Product)](course.md#part-4-computing-similarity-the-dot-product)
-  - [Part 5: Converting Scores to Probabilities (Softmax)](course.md#part-5-converting-scores-to-probabilities-softmax)
-- [**Chapter 6:** Dropout](course.md#chapter-6-dropout-the-training-safety-net) - The training safety net
-- [**Chapter 7:** Feed-Forward Network](course.md#chapter-7-feed-forward-network-individual-processing) - Individual word processing
-- [**Chapter 8:** Residual Connections & Layer Normalization](course.md#chapter-8-residual-connections--layer-normalization) - Gradient highways
-- [**Chapter 9:** Stacking Transformer Blocks](course.md#chapter-9-stacking-transformer-blocks) - Building depth
-- [**Chapter 10:** The Output Head](course.md#chapter-10-the-output-head-predicting-next-token) - Predicting the next token
+- [**Chapter 5:** Multi-Head Self-Attention](chapter-05-multi-head-self-attention.md#chapter-5-multihead-selfattention-the-heart) - The heart of transformers
+  - [Part 1: Understanding the Core Concept](chapter-05-multi-head-self-attention.md#part-1-understanding-the-core-concept)
+  - [Part 2: Multi-Head Attention (Why Multiple Perspectives?)](chapter-05-multi-head-self-attention.md#part-2-multihead-attention-why-multiple-perspectives)
+  - [Part 3: The Mathematics (Step-by-Step Calculations)](chapter-05-multi-head-self-attention.md#part-3-the-mathematics-stepbystep-calculations)
+  - [Part 4: Computing Similarity (The Dot Product)](chapter-05-multi-head-self-attention.md#part-4-computing-similarity-the-dot-product)
+  - [Part 5: Converting Scores to Probabilities (Softmax)](chapter-05-multi-head-self-attention.md#part-5-converting-scores-to-probabilities-softmax)
+- [**Chapter 6:** Dropout](chapter-06-dropout.md#chapter-6-dropout-the-training-safety-net) - The training safety net
+- [**Chapter 7:** Feed-Forward Network](chapter-07-feed-forward-network.md#chapter-7-feedforward-network-individual-processing) - Individual word processing
+- [**Chapter 8:** Residual Connections & Layer Normalization](chapter-08-residual-connections-layer-normalization.md#chapter-8-residual-connections--layer-normalization) - Gradient highways
+- [**Chapter 9:** Stacking Transformer Blocks](chapter-09-stacking-transformer-blocks.md#chapter-9-stacking-transformer-blocks) - Building depth
+- [**Chapter 10:** The Output Head](chapter-10-output-head.md#chapter-10-the-output-head-predicting-next-token) - Predicting the next token
 
 ### Training & Inference (Chapters 11-13)
-- [**Chapter 11:** Training the Transformer](course.md#chapter-11-training-the-transformer-the-learning-process) - Backpropagation, loss functions, optimizers
-- [**Chapter 12:** Causal Masking](course.md#chapter-12-causal-masking-no-cheating) - Preventing the model from cheating
-- [**Chapter 13:** Inference](course.md#chapter-13-inference-using-the-trained-model) - Using the trained model (with KV cache optimization!)
+- [**Chapter 11:** Training the Transformer](chapter-11-training-the-transformer.md#chapter-11-training-the-transformer-the-learning-process) - Backpropagation, loss functions, optimizers
+- [**Chapter 12:** Causal Masking](chapter-12-causal-masking.md#chapter-12-causal-masking-no-cheating) - Preventing the model from cheating
+- [**Chapter 13:** Inference](chapter-13-inference.md#chapter-13-inference-using-the-trained-model) - Using the trained model (with KV cache optimization!)
 
 ### Advanced Topics (Chapters 14-17)
-- [**Chapter 14:** All the Hyperparameters](course.md#chapter-14-all-the-hyperparameters-the-control-panel) - The complete control panel
-- [**Chapter 15:** Additional Techniques](course.md#chapter-15-additional-techniques) - Gradient accumulation, mixed precision, checkpointing
-- [**Chapter 16:** Common Training Problems & Solutions](course.md#chapter-16-common-training-problems--solutions) - Debugging guide
-- [**Chapter 17:** Putting It All Together](course.md#chapter-17-putting-it-all-together-complete-example) - Complete end-to-end example
+- [**Chapter 14:** All the Hyperparameters](chapter-14-all-the-hyperparameters.md#chapter-14-all-the-hyperparameters-the-control-panel) - The complete control panel
+- [**Chapter 15:** Additional Techniques](chapter-15-additional-techniques.md#chapter-15-additional-techniques) - Gradient accumulation, mixed precision, checkpointing
+- [**Chapter 16:** Common Training Problems & Solutions](chapter-16-common-training-problems-solutions.md#chapter-16-common-training-problems--solutions) - Debugging guide
+- [**Chapter 17:** Putting It All Together](chapter-17-putting-it-all-together.md#chapter-17-putting-it-all-together-complete-example) - Complete end-to-end example
 
 ### Real-World Applications (Chapters 18-21)
-- [**Chapter 18:** From Language Model to ChatGPT](course.md#chapter-18-from-language-model-to-chatgpt-the-three-training-stages) - The three training stages (pre-training, fine-tuning, RLHF)
-  - [Part 1: Pre-Training (Building the Foundation)](course.md#part-1-pre-training-building-the-foundation)
-  - [Part 2: Fine-Tuning (Specialization)](course.md#part-2-fine-tuning-specialization)
-  - [Part 3: Instruction Tuning & RLHF (Making It Helpful)](course.md#part-3-instruction-tuning--rlhf-making-it-helpful)
-  - [Part 4: Practical Implications](course.md#part-4-practical-implications)
-  - [Part 5: The Timeline of Modern LLMs](course.md#part-5-the-timeline-of-modern-llms)
-  - [Part 6: Key Takeaways](course.md#part-6-key-takeaways)
-- [**Chapter 19:** Three Transformer Architectures](course.md#chapter-19-three-transformer-architectures-decoder-encoder-encoder-decoder) - Understanding encoder vs decoder vs encoder-decoder
-  - [Part 1: Understanding the Three Architectures](course.md#part-1-understanding-the-three-architectures)
-  - [Part 2: Key Differences Explained](course.md#part-2-key-differences-explained)
-  - [Part 3: Which One Should You Use?](course.md#part-3-which-one-should-you-use)
-  - [Part 4: What Makes Decoder-Only Special (What You Learned)](course.md#part-4-what-makes-decoder-only-special-what-you-learned)
-  - [Part 5: The Missing Piece (Cross-Attention in Encoder-Decoder)](course.md#part-5-the-missing-piece-cross-attention-in-encoder-decoder)
-  - [Part 6: What You Learned vs What Exists](course.md#part-6-what-you-learned-vs-what-exists)
-  - [Part 7: Modern Landscape (What's Actually Used)](course.md#part-7-modern-landscape-whats-actually-used)
-  - [Part 8: Summary - What You Actually Know](course.md#part-8-summary---what-you-actually-know)
-- [**Chapter 20:** Quick Quizzes](course.md#chapter-20-quick-quizzes-test-yourself) - Test your understanding
-- [**Chapter 21:** Going Further](course.md#chapter-21-going-further) - Next steps and resources
+- [**Chapter 18:** From Language Model to ChatGPT](chapter-18-from-language-model-to-chatgpt.md#chapter-18-from-language-model-to-chatgpt-the-three-training-stages) - The three training stages (pre-training, fine-tuning, RLHF)
+  - [Part 1: Pre-Training (Building the Foundation)](chapter-18-from-language-model-to-chatgpt.md#part-1-pretraining-building-the-foundation)
+  - [Part 2: Fine-Tuning (Specialization)](chapter-18-from-language-model-to-chatgpt.md#part-2-finetuning-specialization)
+  - [Part 3: Instruction Tuning & RLHF (Making It Helpful)](chapter-18-from-language-model-to-chatgpt.md#part-3-instruction-tuning--rlhf-making-it-helpful)
+  - [Part 4: Practical Implications](chapter-18-from-language-model-to-chatgpt.md#part-4-practical-implications)
+  - [Part 5: The Timeline of Modern LLMs](chapter-18-from-language-model-to-chatgpt.md#part-5-the-timeline-of-modern-llms)
+  - [Part 6: Key Takeaways](chapter-18-from-language-model-to-chatgpt.md#part-6-key-takeaways)
+- [**Chapter 19:** Three Transformer Architectures](chapter-19-three-transformer-architectures.md#chapter-19-the-three-transformer-architectures-decoder-encoder-encoderdecoder) - Understanding encoder vs decoder vs encoder-decoder
+  - [Part 1: Understanding the Three Architectures](chapter-19-three-transformer-architectures.md#part-1-understanding-the-three-architectures)
+  - [Part 2: Key Differences Explained](chapter-19-three-transformer-architectures.md#part-2-key-differences-explained)
+  - [Part 3: Which One Should You Use?](chapter-19-three-transformer-architectures.md#part-3-which-one-should-you-use)
+  - [Part 4: What Makes Decoder-Only Special (What You Learned)](chapter-19-three-transformer-architectures.md#part-4-what-makes-decoderonly-special-what-you-learned)
+  - [Part 5: The Missing Piece (Cross-Attention in Encoder-Decoder)](chapter-19-three-transformer-architectures.md#part-5-the-missing-piece-crossattention-in-encoderdecoder)
+  - [Part 6: What You Learned vs What Exists](chapter-19-three-transformer-architectures.md#part-6-what-you-learned-vs-what-exists)
+  - [Part 7: Modern Landscape (What's Actually Used)](chapter-19-three-transformer-architectures.md#part-7-modern-landscape-whats-actually-used)
+  - [Part 8: Summary - What You Actually Know](chapter-19-three-transformer-architectures.md#part-8-summary--what-you-actually-know)
+- [**Chapter 20:** Quick Quizzes](chapter-20-quick-quizzes.md#chapter-20-quick-quizzes-test-yourself) - Test your understanding
+- [**Chapter 21:** Going Further](chapter-21-going-further.md#chapter-21-going-further) - Next steps and resources
+
+### Appendix
+- [Math Symbols Quick Reference](appendix-math-symbols-quick-reference.md#math-symbols-quick-reference-your-decoder-ring) - Your decoder ring for all the notation
 
 ---
 
@@ -125,16 +125,16 @@ The tutorial builds everything from the ground up, explaining even the math nota
 
 After completing this tutorial, you will:
 
-✅ Understand how words become numbers (embeddings)  
-✅ Grasp how transformers know word order (positional encoding)  
-✅ Master self-attention and why it's revolutionary  
-✅ Understand the complete training process (loss, gradients, backpropagation)  
-✅ Know the difference between pre-training and fine-tuning  
-✅ Understand how ChatGPT differs from base GPT-3  
-✅ Be able to implement a transformer from scratch  
-✅ Read and understand modern AI research papers  
-✅ Debug common training issues  
-✅ Know what you'll actually do in an AI/ML career  
+- ✅ Understand how words become numbers (embeddings)
+- ✅ Grasp how transformers know word order (positional encoding)
+- ✅ Master self-attention and why it's revolutionary
+- ✅ Understand the complete training process (loss, gradients, backpropagation)
+- ✅ Know the difference between pre-training and fine-tuning
+- ✅ Understand how ChatGPT differs from base GPT-3
+- ✅ Be able to implement a transformer from scratch
+- ✅ Read and understand modern AI research papers
+- ✅ Debug common training issues
+- ✅ Know what you'll actually do in an AI/ML career
 
 ---
 
@@ -147,7 +147,7 @@ After completing this tutorial, you will:
    ```
 
 2. **Read the course**
-   - Open [`course.md`](course.md) and start from the beginning
+   - Start with [`00-introduction.md`](00-introduction.md), then read the chapter files in order
    - Grab paper and pencil to follow along with calculations
    - Take your time—understanding is more important than speed!
 
@@ -185,65 +185,388 @@ Explains what you'll ACTUALLY do in industry:
 
 ### 5. Modern Content
 - Covers decoder-only transformers (GPT-style), the most common foundation behind modern LLMs
-- Explains the three training stages that create ChatGPT
+- Explains the core training stages behind ChatGPT-style assistants
 - Includes recent optimizations (KV cache, flash attention concepts)
 
 ---
 
-## How You Can Help
+## Contributing
 
-This project aims to be the **most accessible and comprehensive transformer tutorial ever created**. Here's how you can contribute:
+First off, **thank you** for considering contributing to this project!
 
-### Illustrations & Diagrams
-- Help create visual diagrams for attention mechanisms
-- Design infographics for the training pipeline
-- Create animated visualizations of key concepts
-- Illustrate analogies (dating app, library, highway, etc.)
+This tutorial aims to be the most accessible and comprehensive transformer guide ever created. Every contribution—whether it's fixing a typo, adding a diagram, or creating interactive examples—helps make AI education more accessible.
 
-### Code Implementation
-- Implement the tutorial in PyTorch
-- Create interactive Jupyter notebooks
-- Build web-based visualizations
-- Develop step-by-step debugging tools
+### Ways to Contribute
 
-### Content & Review
-- Proofread for clarity and accuracy
-- Suggest additional analogies and examples
-- Translate to other languages
-- Add exercises and quizzes
+#### Visual & Design Contributions
+- **Illustrations:** Create diagrams for attention mechanisms, embedding spaces, etc.
+- **Infographics:** Design visual summaries of complex concepts
+- **Animations:** Build animated visualizations of transformer operations
+- **Web Design:** Help create a beautiful, accessible website
+- **UI/UX:** Improve the reading experience
 
-### Design & Hosting
-- Create a beautiful website for the course
-- Design a modern, accessible reading experience
-- Optimize for mobile reading
-- Build an interactive table of contents
+#### Code Contributions
+- **PyTorch Implementation:** Complete, commented implementation matching the tutorial
+- **Jupyter Notebooks:** Interactive notebooks with step-by-step execution
+- **Visualization Tools:** Interactive demos of attention, embeddings, etc.
+- **Web Demos:** Browser-based implementations
+- **Testing Frameworks:** Tools to verify calculations
 
-### Multimedia
-- Create video explanations of key concepts
-- Record walkthroughs of hand calculations
-- Produce animated sequences for attention flow
-- Build interactive demos
+#### Content Contributions
+- **Proofreading:** Fix typos, grammar, and clarity issues
+- **Additional Examples:** Add more worked examples
+- **Analogies:** Suggest better analogies for difficult concepts
+- **Exercises:** Create practice problems with solutions
+- **Quizzes:** Interactive self-assessment tools
+- **Translations:** Translate to other languages
 
-### Testing & Feedback
-- Work through the tutorial and report confusing sections
-- Test with diverse audiences and experience levels
-- Suggest improvements to analogies and explanations
-- Verify mathematical accuracy
+#### Documentation
+- **API Documentation:** If code is added, document it thoroughly
+- **Setup Guides:** Help others get started with implementations
+- **Troubleshooting:** Document common issues and solutions
+- **FAQ:** Add frequently asked questions
 
-### Sharing & Community
-- Share the tutorial with students and colleagues
-- Create discussion forums for learners
-- Write blog posts about your learning journey
-- Build study groups around the material
+#### Testing & Feedback
+- **Beta Testing:** Work through the tutorial and report issues
+- **Accuracy Review:** Verify mathematical correctness
+- **Pedagogical Review:** Test with diverse audiences
+- **Accessibility Review:** Ensure content is accessible to all
 
-**Interested in helping?** Please open an issue or submit a pull request! All contributions are welcome, from fixing typos to major content additions.
+### Contribution Guidelines
+
+#### Before You Start
+
+1. **Check existing issues:** Someone might already be working on it
+2. **Open an issue:** Discuss major changes before investing time
+3. **Read the license:** Understand the [licensing terms](#license)
+4. **Keep the tone:** Maintain the friendly, accessible style
+
+#### Contribution Process
+
+1. **Fork the repository**
+   ```bash
+   git clone git@github-rimomcosta:YOUR_USERNAME/Transformers-for-absolute-dummies.git
+   cd Transformers-for-absolute-dummies
+   ```
+
+2. **Create a branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   # or
+   git checkout -b fix/your-bug-fix
+   ```
+
+3. **Make your changes**
+   - Write clear, descriptive commit messages
+   - Keep changes focused (one feature/fix per PR)
+   - Test your changes thoroughly
+
+4. **Commit your changes**
+   ```bash
+   git add .
+   git commit -m "Add: brief description of changes"
+   ```
+
+5. **Push to your fork**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+6. **Open a Pull Request**
+   - Provide a clear description of changes
+   - Reference any related issues
+   - Explain why the change is valuable
+
+#### Commit Message Guidelines
+
+Use clear, descriptive commit messages:
+- `Add: new section on flash attention`
+- `Fix: typo in chapter 5, paragraph 3`
+- `Improve: clarity of attention mechanism explanation`
+- `Update: diagram for multi-head attention`
+- `Docs: add setup instructions for PyTorch`
+
+#### Code Style (for code contributions)
+
+- **Python:** Follow PEP 8, use type hints
+- **Comments:** Explain WHY, not just WHAT
+- **Naming:** Clear, descriptive variable names
+- **Documentation:** Docstrings for all functions/classes
+
+Example:
+```python
+def calculate_attention_scores(query: np.ndarray, key: np.ndarray) -> np.ndarray:
+    """
+    Calculate attention scores between query and key vectors.
+
+    Args:
+        query: Query vector of shape (d_k,)
+        key: Key vector of shape (d_k,)
+
+    Returns:
+        Attention score (scalar value)
+
+    Example:
+        >>> query = np.array([1.0, 0.5])
+        >>> key = np.array([0.8, 0.6])
+        >>> calculate_attention_scores(query, key)
+        1.1
+    """
+    return np.dot(query, key)
+```
+
+#### Content Style (for written contributions)
+
+##### Tone
+- **Friendly and encouraging:** "Great! Now let's see..."
+- **Avoid condescension:** Never "Obviously..." or "Simply..."
+- **Inclusive language:** Use "we" and "our"
+
+##### Structure
+- **Short paragraphs:** 3-5 sentences max
+- **Clear headings:** Descriptive and hierarchical
+- **Examples first:** Show, then explain
+- **Unified explanation style:** Build plain-language intuition while preserving the real technical detail
+
+##### Formatting
+- **Bold** for emphasis
+- `code` for technical terms
+- > Blockquotes for important notes
+- Lists for clarity
+- Tables for comparisons
+
+##### Math Notation
+- Define symbols before using them
+- Use LaTeX for complex equations: `$E = mc^2$`
+- Show numerical examples after formulas
+- Explain in words what the math means
+
+Example:
+```markdown
+#### Understanding the Dot Product
+
+The **dot product** measures similarity between two vectors.
+
+**Formula:**
+$\text{score} = \vec{q} \cdot \vec{k} = q_1 k_1 + q_2 k_2 + ... + q_n k_n$
+
+**Example:**
+Query: $\vec{q} = [1.0, 0.5]$
+Key: $\vec{k} = [0.8, 0.6]$
+
+$\text{score} = (1.0 \times 0.8) + (0.5 \times 0.6) = 0.8 + 0.3 = 1.1$
+
+**Intuition:** Higher scores mean the vectors point in similar directions!
+```
+
+### Specific Help Needed
+
+#### High Priority
+
+1. **Visual Diagrams**
+   - Multi-head attention mechanism
+   - Transformer block architecture
+   - Training pipeline (pre-training → fine-tuning → RLHF)
+   - Positional encoding wave patterns
+   - Gradient flow through residual connections
+
+2. **Interactive Web Version**
+   - Responsive design
+   - Table of contents with smooth scrolling
+   - Code syntax highlighting
+   - Mobile-friendly layout
+   - Dark mode support
+
+3. **PyTorch Implementation**
+   - Heavily commented code matching the tutorial
+   - Step-by-step execution examples
+   - Debugging utilities
+   - Visualization hooks
+
+4. **Video Walkthroughs**
+   - Key concept explanations
+   - Hand-calculation demonstrations
+   - Step-through of complete examples
+
+#### Medium Priority
+
+5. **Jupyter Notebooks**
+   - Interactive exercises
+   - Executable code cells
+   - Inline visualizations
+
+6. **Additional Examples**
+   - More sentence processing examples
+   - Different language examples
+   - Edge cases and corner cases
+
+7. **Exercises & Quizzes**
+   - Progressive difficulty levels
+   - Immediate feedback
+   - Explanations for wrong answers
+
+8. **Translations**
+   - Spanish
+   - Portuguese
+   - Mandarin
+   - Hindi
+   - French
+   - German
+
+#### Future Considerations
+
+9. **Advanced Topics**
+   - Flash Attention
+   - Mixture of Experts
+   - Sparse Attention
+   - Efficient Transformers
+
+10. **Related Architectures**
+    - Vision Transformers (ViT)
+    - Diffusion Transformers
+    - Multimodal transformers
+
+### Reporting Bugs
+
+Found an error? Please help us fix it!
+
+#### For Content Issues
+- **What:** Quote the problematic text
+- **Where:** Chapter and section
+- **Issue:** What's wrong (typo, factual error, clarity)
+- **Suggestion:** How to fix it (if you have one)
+
+#### For Code Issues
+- **Environment:** OS, Python version, dependencies
+- **Steps to reproduce:** Exact steps to trigger the bug
+- **Expected behavior:** What should happen
+- **Actual behavior:** What actually happens
+- **Error messages:** Full error output
+
+### Suggesting Enhancements
+
+Have an idea? We'd love to hear it!
+
+**Good enhancement suggestions include:**
+- Clear description of the enhancement
+- Explanation of why it's valuable
+- Examples of how it would work
+- Consideration of alternatives
+
+### Contributor Agreement
+
+By contributing, you agree to the terms in the [License](#license):
+
+- Your contribution will be credited
+- You retain copyright to your work
+- You grant a royalty-free license to the author
+- You affirm you have the right to contribute
+
+Significant contributors will be acknowledged in the README and documentation.
+
+### Getting Help
+
+Stuck? Need guidance?
+
+- **Discussions:** For questions and general discussion
+- **Issues:** For specific bugs or feature requests
+- **Email:** For private inquiries: [rimomcosta@gmail.com](mailto:rimomcosta@gmail.com)
+
+### Code of Conduct
+
+#### Our Pledge
+
+We pledge to make participation in this project a harassment-free experience for everyone, regardless of:
+- Age
+- Body size
+- Disability
+- Ethnicity
+- Gender identity and expression
+- Level of experience
+- Nationality
+- Personal appearance
+- Race
+- Religion
+- Sexual identity and orientation
+
+#### Our Standards
+
+**Positive behavior:**
+- Being respectful and inclusive
+- Accepting constructive criticism gracefully
+- Focusing on what's best for the community
+- Showing empathy toward others
+
+**Unacceptable behavior:**
+- Trolling, insulting, or derogatory comments
+- Public or private harassment
+- Publishing others' private information
+- Other conduct inappropriate in a professional setting
+
+#### Enforcement
+
+Project maintainers have the right to remove, edit, or reject comments, commits, code, issues, and other contributions that don't align with this Code of Conduct.
+
+### Recognition
+
+Contributors will be recognized in several ways:
+
+1. **GitHub Contributors:** Automatically listed by GitHub
+2. **CONTRIBUTORS.md:** Special recognition for significant contributions
+3. **In-document Attribution:** For major content additions
+4. **Project Website:** Hall of fame on the website (when built)
+
+### Project Structure
+
+```
+Transformers-for-absolute-dummies/
+├── README.md        # Project overview, course index, contribution guide, and license terms
+├── 00-introduction.md
+├── chapter-*.md     # Individual course chapters
+├── appendix-math-symbols-quick-reference.md
+├── code/            # Code implementations (coming soon)
+│   ├── pytorch/     # PyTorch implementation
+│   ├── tensorflow/  # TensorFlow implementation
+│   └── numpy/       # Pure NumPy implementation
+├── notebooks/       # Jupyter notebooks (coming soon)
+├── diagrams/        # Visual diagrams (coming soon)
+├── website/         # Web version (coming soon)
+└── translations/    # Translations (coming soon)
+```
+
+### Learning Resources for Contributors
+
+Want to contribute but need to learn more first?
+
+- **Git & GitHub:** [GitHub Guides](https://guides.github.com/)
+- **Markdown:** [Markdown Guide](https://www.markdownguide.org/)
+- **LaTeX Math:** [LaTeX Math Symbols](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)
+- **Transformers:** Start with [`00-introduction.md`](00-introduction.md), then read the chapter files in order
+
+### Review Process
+
+1. **Initial review:** Within 1 week
+2. **Feedback:** Clear, constructive comments
+3. **Iterations:** Work together to refine
+4. **Merge:** Once approved by maintainer
+5. **Recognition:** Credit added to project
+
+### Thank You!
+
+Every contribution, no matter how small, makes this resource better for learners worldwide. You're helping democratize AI education!
+
+**Together, we can make AI accessible to everyone.**
+
+---
+
+*Questions about contributing? Open an issue with the "question" label!*
 
 ---
 
 ## Roadmap
 
 ### Current Status: Core Content Complete
-The complete written tutorial is available in [`course.md`](course.md)
+The complete written tutorial is split into chapter files listed in the [course contents](#course-contents)
 
 ### Coming Soon:
 - [ ] Interactive web version with navigation
@@ -313,7 +636,23 @@ MIT License
 
 Copyright (c) 2025 Rimom Costa
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
