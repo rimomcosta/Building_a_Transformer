@@ -1,4 +1,4 @@
-# Transformers for Absolute Dummies
+# Building a Transformer
 
 **Building a Transformer: The Complete Guide from Paper to Production**
 
