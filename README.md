@@ -14,9 +14,9 @@ This is **not** your typical AI tutorial. This is a complete, from-first-princip
 
 - **Hand-calculable examples** - Uses tiny numbers (6 dimensions instead of 12,288) so you can verify EVERY calculation by hand
 - **Accessible without being shallow** - Explains concepts clearly enough for beginners while staying useful for serious technical readers
-- **Complete coverage** - From tokenization to training to production ChatGPT (including RLHF)
+- **Complete coverage** - From tokenization to training and ChatGPT-style assistant alignment (including RLHF)
 - **No magic boxes** - Every formula explained, every design choice justified
-- **Visual learning** - Analogies, examples, and intuitive explanations throughout
+- **Intuitive learning** - Analogies, examples, and plain-language explanations throughout
 - **Career-focused** - Teaches what you'll ACTUALLY do in industry (hint: not training from scratch!)
 
 **After this course, you'll understand:**
@@ -128,7 +128,7 @@ After completing this tutorial, you will:
 - ✅ Master self-attention and why it's revolutionary
 - ✅ Understand the complete training process (loss, gradients, backpropagation)
 - ✅ Know the difference between pre-training and fine-tuning
-- ✅ Understand how ChatGPT differs from base GPT-3
+- ✅ Understand how ChatGPT-style assistants differ from base GPT-style language models
 - ✅ Be able to implement a transformer from scratch
 - ✅ Read and understand modern AI research papers
 - ✅ Debug common training issues
@@ -140,8 +140,8 @@ After completing this tutorial, you will:
 
 1. **Clone this repository**
    ```bash
-   git clone git@github-rimomcosta:rimomcosta/Transformers-for-absolute-dummies.git
-   cd Transformers-for-absolute-dummies
+   git clone git@github.com:rimomcosta/Building_a_Transformer.git
+   cd Building_a_Transformer
    ```
 
 2. **Read the course**
@@ -192,16 +192,16 @@ Explains what you'll ACTUALLY do in industry:
 
 First off, **thank you** for considering contributing to this project!
 
-This tutorial aims to be the most accessible and comprehensive transformer guide ever created. Every contribution—whether it's fixing a typo, adding a diagram, or creating interactive examples—helps make AI education more accessible.
+This tutorial aims to be the most accessible and comprehensive transformer guide ever created. Every contribution—whether it's fixing a typo, clarifying an explanation, or creating interactive examples—helps make AI education more accessible.
 
 ### Ways to Contribute
 
-#### Visual & Design Contributions
-- **Illustrations:** Create diagrams for attention mechanisms, embedding spaces, etc.
-- **Infographics:** Design visual summaries of complex concepts
-- **Animations:** Build animated visualizations of transformer operations
+#### Course Experience Contributions
+- **Reading flow:** Improve navigation, section order, and transitions
+- **Accessibility:** Make explanations easier to follow for different learning backgrounds
+- **Interactive examples:** Build optional demos that reinforce the written course
 - **Web Design:** Help create a beautiful, accessible website
-- **UI/UX:** Improve the reading experience
+- **UI/UX:** Improve the study experience
 
 #### Code Contributions
 - **PyTorch Implementation:** Complete, commented implementation matching the tutorial
@@ -243,8 +243,8 @@ This tutorial aims to be the most accessible and comprehensive transformer guide
 
 1. **Fork the repository**
    ```bash
-   git clone git@github-rimomcosta:YOUR_USERNAME/Transformers-for-absolute-dummies.git
-   cd Transformers-for-absolute-dummies
+   git clone git@github.com:YOUR_USERNAME/Building_a_Transformer.git
+   cd Building_a_Transformer
    ```
 
 2. **Create a branch**
@@ -281,7 +281,7 @@ Use clear, descriptive commit messages:
 - `Add: new section on flash attention`
 - `Fix: typo in chapter 5, paragraph 3`
 - `Improve: clarity of attention mechanism explanation`
-- `Update: diagram for multi-head attention`
+- `Update: explanation for multi-head attention`
 - `Docs: add setup instructions for PyTorch`
 
 #### Code Style (for code contributions)
@@ -361,12 +361,11 @@ $\text{score} = (1.0 \times 0.8) + (0.5 \times 0.6) = 0.8 + 0.3 = 1.1$
 
 #### High Priority
 
-1. **Visual Diagrams**
-   - Multi-head attention mechanism
-   - Transformer block architecture
-   - Training pipeline (pre-training → fine-tuning → RLHF)
-   - Positional encoding wave patterns
-   - Gradient flow through residual connections
+1. **Content Review and Text Clarity**
+   - Verify mathematical accuracy
+   - Improve explanations while preserving the unified tone
+   - Add examples that help both beginners and technical readers
+   - Keep concepts clear without splitting the course into separate tracks
 
 2. **Interactive Web Version**
    - Responsive design
@@ -510,33 +509,45 @@ Project maintainers have the right to remove, edit, or reject comments, commits,
 Contributors will be recognized in several ways:
 
 1. **GitHub Contributors:** Automatically listed by GitHub
-2. **CONTRIBUTORS.md:** Special recognition for significant contributions
+2. **README Acknowledgments:** Special recognition for significant contributions
 3. **In-document Attribution:** For major content additions
-4. **Project Website:** Hall of fame on the website (when built)
 
 ### Project Structure
 
 ```
-Transformers-for-absolute-dummies/
-├── README.md        # Project overview, course index, contribution guide, and license terms
+Building_a_Transformer/
+├── README.md
 ├── 00-introduction.md
-├── chapter-*.md     # Individual course chapters
-├── appendix-math-symbols-quick-reference.md
-├── code/            # Code implementations (coming soon)
-│   ├── pytorch/     # PyTorch implementation
-│   ├── tensorflow/  # TensorFlow implementation
-│   └── numpy/       # Pure NumPy implementation
-├── notebooks/       # Jupyter notebooks (coming soon)
-├── diagrams/        # Visual diagrams (coming soon)
-├── website/         # Web version (coming soon)
-└── translations/    # Translations (coming soon)
+├── chapter-00-grand-vision.md
+├── chapter-01-building-our-vocabulary.md
+├── chapter-02-tokenization.md
+├── chapter-03-embeddings.md
+├── chapter-04-positional-encoding.md
+├── chapter-05-multi-head-self-attention.md
+├── chapter-06-dropout.md
+├── chapter-07-feed-forward-network.md
+├── chapter-08-residual-connections-layer-normalization.md
+├── chapter-09-stacking-transformer-blocks.md
+├── chapter-10-output-head.md
+├── chapter-11-training-the-transformer.md
+├── chapter-12-causal-masking.md
+├── chapter-13-inference.md
+├── chapter-14-all-the-hyperparameters.md
+├── chapter-15-additional-techniques.md
+├── chapter-16-common-training-problems-solutions.md
+├── chapter-17-putting-it-all-together.md
+├── chapter-18-from-language-model-to-chatgpt.md
+├── chapter-19-three-transformer-architectures.md
+├── chapter-20-quick-quizzes.md
+├── chapter-21-going-further.md
+└── appendix-math-symbols-quick-reference.md
 ```
 
 ### Learning Resources for Contributors
 
 Want to contribute but need to learn more first?
 
-- **Git & GitHub:** [GitHub Guides](https://guides.github.com/)
+- **Git & GitHub:** [GitHub Docs](https://docs.github.com/)
 - **Markdown:** [Markdown Guide](https://www.markdownguide.org/)
 - **LaTeX Math:** [LaTeX Math Symbols](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)
 - **Transformers:** Start with [`00-introduction.md`](00-introduction.md), then read the chapter files in order
@@ -569,9 +580,9 @@ The complete written tutorial is split into chapter files listed in the [course 
 ### Coming Soon:
 - [ ] Interactive web version with navigation
 - [ ] PyTorch implementation with step-by-step comments
-- [ ] Visual diagrams for each chapter
+- [ ] Text examples and exercises for each chapter
 - [ ] Video walkthroughs of key concepts
-- [ ] Interactive attention visualizations
+- [ ] Optional interactive attention demos for the web version
 - [ ] Jupyter notebooks with executable examples
 - [ ] Exercise sets with solutions
 - [ ] Translation to other languages
@@ -672,6 +683,6 @@ Together, we can make AI education accessible to everyone!
 
 *"The best way to understand transformers is to build one yourself"*
 
-[Back to Top](#transformers-for-absolute-dummies)
+[Back to Top](#building-a-transformer-the-complete-guide-from-paper-to-production)
 
 </div>
