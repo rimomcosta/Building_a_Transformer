@@ -38,3 +38,4 @@ Imagine organizing a massive library. You could shelve books by title alphabetic
 
 ---
 
+**Course navigation:** [Previous: Chapter 0 - The Grand Vision](chapter-00-grand-vision.md) | [Next: Chapter 2 - Tokenization](chapter-02-tokenization.md)

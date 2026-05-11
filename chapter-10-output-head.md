@@ -251,3 +251,4 @@ In practice, modern systems like ChatGPT typically combine these: use temperatur
 
 ---
 
+**Course navigation:** [Previous: Chapter 9 - Stacking Transformer Blocks](chapter-09-stacking-transformer-blocks.md) | [Next: Chapter 11 - Training the Transformer](chapter-11-training-the-transformer.md)

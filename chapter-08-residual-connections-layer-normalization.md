@@ -314,3 +314,4 @@ The difference? Pre-LayerNorm normalizes before the operation instead of after. 
 
 ---
 
+**Course navigation:** [Previous: Chapter 7 - Feed-Forward Network](chapter-07-feed-forward-network.md) | [Next: Chapter 9 - Stacking Transformer Blocks](chapter-09-stacking-transformer-blocks.md)

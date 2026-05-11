@@ -176,3 +176,4 @@ Each block adds a layer of sophistication! The representation progressively capt
 
 ---
 
+**Course navigation:** [Previous: Chapter 8 - Residual Connections & Layer Normalization](chapter-08-residual-connections-layer-normalization.md) | [Next: Chapter 10 - The Output Head](chapter-10-output-head.md)

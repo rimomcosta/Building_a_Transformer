@@ -89,3 +89,4 @@ Word level:      "the", "pizza", "love"
 
 ---
 
+**Course navigation:** [Previous: Chapter 1 - Building Our Vocabulary](chapter-01-building-our-vocabulary.md) | [Next: Chapter 3 - Embeddings](chapter-03-embeddings.md)

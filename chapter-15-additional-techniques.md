@@ -170,3 +170,4 @@ $\sigma = \sqrt{\frac{2}{6+24}} = \sqrt{0.0667} = 0.258$
 
 ---
 
+**Course navigation:** [Previous: Chapter 14 - All the Hyperparameters](chapter-14-all-the-hyperparameters.md) | [Next: Chapter 16 - Common Training Problems & Solutions](chapter-16-common-training-problems-solutions.md)

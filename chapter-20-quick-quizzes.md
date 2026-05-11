@@ -49,3 +49,4 @@
 
 ---
 
+**Course navigation:** [Previous: Chapter 19 - Three Transformer Architectures](chapter-19-three-transformer-architectures.md) | [Next: Chapter 21 - Going Further](chapter-21-going-further.md)

@@ -126,3 +126,5 @@ After transformers:
 The same architecture, just different data! That's the power of a truly general-purpose learning system.
 
 ---
+
+**Course navigation:** [Next: Chapter 0 - The Grand Vision](chapter-00-grand-vision.md)

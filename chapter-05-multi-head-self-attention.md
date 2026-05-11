@@ -931,3 +931,4 @@ The output projection is like a film director with footage from multiple cameras
 
 ---
 
+**Course navigation:** [Previous: Chapter 4 - Positional Encoding](chapter-04-positional-encoding.md) | [Next: Chapter 6 - Dropout](chapter-06-dropout.md)

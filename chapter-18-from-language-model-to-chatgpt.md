@@ -501,3 +501,4 @@ Let's trace how ChatGPT was actually made:
 
 ---
 
+**Course navigation:** [Previous: Chapter 17 - Putting It All Together](chapter-17-putting-it-all-together.md) | [Next: Chapter 19 - Three Transformer Architectures](chapter-19-three-transformer-architectures.md)

@@ -134,3 +134,4 @@ Modern transformers typically use dropout rates between 0.1 (drop 10% of neurons
 
 ---
 
+**Course navigation:** [Previous: Chapter 5 - Multi-Head Self-Attention](chapter-05-multi-head-self-attention.md) | [Next: Chapter 7 - Feed-Forward Network](chapter-07-feed-forward-network.md)

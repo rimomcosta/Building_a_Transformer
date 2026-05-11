@@ -535,3 +535,4 @@ The cross-attention lets the decoder constantly "peek" at the source text while 
 
 ---
 
+**Course navigation:** [Previous: Chapter 18 - From Language Model to ChatGPT](chapter-18-from-language-model-to-chatgpt.md) | [Next: Chapter 20 - Quick Quizzes](chapter-20-quick-quizzes.md)

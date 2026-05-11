@@ -154,3 +154,7 @@ The transformer revolution started in 2017. By 2025, it powers:
 - And much more...
 
 **You're now part of the AI generation. What will you build?** 🚀
+
+---
+
+**Course navigation:** [Previous: Chapter 20 - Quick Quizzes](chapter-20-quick-quizzes.md) | [Next: Math Symbols Quick Reference](appendix-math-symbols-quick-reference.md)

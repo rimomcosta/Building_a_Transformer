@@ -514,3 +514,4 @@ Epoch 10:
 
 ---
 
+**Course navigation:** [Previous: Chapter 10 - The Output Head](chapter-10-output-head.md) | [Next: Chapter 12 - Causal Masking](chapter-12-causal-masking.md)

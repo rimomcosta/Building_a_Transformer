@@ -47,3 +47,5 @@ This is why language models can help with brainstorming. They can combine learne
 4. **Parallel processing** - All words computed at once (unlike slow RNNs)
 
 ---
+
+**Course navigation:** [Previous: Introduction - What Are Transformers Really?](00-introduction.md) | [Next: Chapter 1 - Building Our Vocabulary](chapter-01-building-our-vocabulary.md)

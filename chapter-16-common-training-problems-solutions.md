@@ -79,3 +79,4 @@ Validation loss: 4.623 ← Also bad
 
 ---
 
+**Course navigation:** [Previous: Chapter 15 - Additional Techniques](chapter-15-additional-techniques.md) | [Next: Chapter 17 - Putting It All Together](chapter-17-putting-it-all-together.md)

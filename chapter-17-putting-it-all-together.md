@@ -101,3 +101,4 @@ Next token: "delicious" (4567)
 
 ---
 
+**Course navigation:** [Previous: Chapter 16 - Common Training Problems & Solutions](chapter-16-common-training-problems-solutions.md) | [Next: Chapter 18 - From Language Model to ChatGPT](chapter-18-from-language-model-to-chatgpt.md)

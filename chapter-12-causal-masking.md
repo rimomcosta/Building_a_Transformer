@@ -109,3 +109,4 @@ scores = scores + mask  # Before softmax
 
 ---
 
+**Course navigation:** [Previous: Chapter 11 - Training the Transformer](chapter-11-training-the-transformer.md) | [Next: Chapter 13 - Inference](chapter-13-inference.md)

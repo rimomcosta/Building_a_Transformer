@@ -247,3 +247,4 @@ These variants often improve performance by allowing the network to learn more c
 
 ---
 
+**Course navigation:** [Previous: Chapter 6 - Dropout](chapter-06-dropout.md) | [Next: Chapter 8 - Residual Connections & Layer Normalization](chapter-08-residual-connections-layer-normalization.md)

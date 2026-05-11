@@ -1542,3 +1542,4 @@ This is the insight that makes sinusoidal encodings not just "working in practic
 
 ---
 
+**Course navigation:** [Previous: Chapter 3 - Embeddings](chapter-03-embeddings.md) | [Next: Chapter 5 - Multi-Head Self-Attention](chapter-05-multi-head-self-attention.md)

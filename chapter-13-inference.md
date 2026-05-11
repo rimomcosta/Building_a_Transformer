@@ -298,3 +298,4 @@ Token 100000: 940 GB ← frontier-scale context windows need serious engineering
 
 ---
 
+**Course navigation:** [Previous: Chapter 12 - Causal Masking](chapter-12-causal-masking.md) | [Next: Chapter 14 - All the Hyperparameters](chapter-14-all-the-hyperparameters.md)

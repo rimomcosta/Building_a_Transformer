@@ -120,3 +120,4 @@ By the end, you'll understand the core operations inside a GPT-style transformer
 
 ---
 
+**Course navigation:** [Previous: Chapter 21 - Going Further](chapter-21-going-further.md)

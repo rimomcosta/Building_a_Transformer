@@ -370,3 +370,4 @@ This is the magic of machine learning—meaningful structure emerges from random
 
 ---
 
+**Course navigation:** [Previous: Chapter 2 - Tokenization](chapter-02-tokenization.md) | [Next: Chapter 4 - Positional Encoding](chapter-04-positional-encoding.md)

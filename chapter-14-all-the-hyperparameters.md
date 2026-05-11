@@ -150,3 +150,4 @@ Step 100000: η = 0.00006  (minimum)
 
 ---
 
+**Course navigation:** [Previous: Chapter 13 - Inference](chapter-13-inference.md) | [Next: Chapter 15 - Additional Techniques](chapter-15-additional-techniques.md)
