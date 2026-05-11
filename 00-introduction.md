@@ -1,16 +1,4 @@
-# Building a Transformer: The Complete Guide from Paper to Production
-
-**A Super-Friendly Tutorial for Curious Learners, Students, and Practitioners**
-
-**Author:** Rimom Costa ([rimomcosta@gmail.com](mailto:rimomcosta@gmail.com))
-
-Hey there! 👋 Grab your pencil, paper, and maybe some crayons—we're building a transformer from absolute scratch, using the same core ideas that power systems like ChatGPT and Claude. We'll use tiny numbers (6 dimensions instead of thousands) so you can calculate EVERYTHING by hand. No scary code, no giant computers—just you, me, and some really cool math.
-
-**What makes this tutorial special?** We'll walk through training (how the model learns) AND inference (how it predicts after training), with every single number calculated step-by-step. Ready? Let's go!
-
----
-
-## Introduction: What Are Transformers Really?
+# Introduction: What Are Transformers Really?
 
 Before diving into the technical details, let's understand what transformers are at a fundamental level—no code, just concepts.
 
@@ -138,4 +126,3 @@ After transformers:
 The same architecture, just different data! That's the power of a truly general-purpose learning system.
 
 ---
-

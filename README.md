@@ -30,10 +30,10 @@ This is **not** your typical AI tutorial. This is a complete, from-first-princip
 
 ## Course Contents
 
-**Click on any chapter to jump directly to that section in the course!**
+**Click on any course section to jump directly to that part of the course!**
 
 ### Preparation
-- [Introduction: What Are Transformers Really?](00-introduction.md#introduction-what-are-transformers-really) - The big-picture starting point
+- [**Introduction:** What Are Transformers Really?](00-introduction.md#introduction-what-are-transformers-really) - The big-picture starting point
 
 ### Foundation (Chapters 0-4)
 - [**Chapter 0:** The Grand Vision](chapter-00-grand-vision.md#chapter-0-the-grand-vision) - What problem are we solving?
