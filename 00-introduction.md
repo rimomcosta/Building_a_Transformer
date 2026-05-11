@@ -127,4 +127,4 @@ The same architecture, just different data! That's the power of a truly general-
 
 ---
 
-**Course navigation:** [Next: Chapter 0 - The Grand Vision](chapter-00-grand-vision.md)
+**Course navigation:** [Previous: Math Symbols Quick Reference](appendix-math-symbols-quick-reference.md) | [Next: Chapter 0 - The Grand Vision](chapter-00-grand-vision.md)

@@ -33,6 +33,7 @@ This is **not** your typical AI tutorial. This is a complete, from-first-princip
 **Click on any course section to jump directly to that part of the course!**
 
 ### Preparation
+- [**Math Symbols Quick Reference:** Your Decoder Ring](appendix-math-symbols-quick-reference.md#math-symbols-quick-reference-your-decoder-ring) - The notation guide to read before the course
 - [**Introduction:** What Are Transformers Really?](00-introduction.md#introduction-what-are-transformers-really) - The big-picture starting point
 
 ### Foundation (Chapters 0-4)
@@ -94,9 +95,6 @@ This is **not** your typical AI tutorial. This is a complete, from-first-princip
   - [Part 8: Summary - What You Actually Know](chapter-19-three-transformer-architectures.md#part-8-summary--what-you-actually-know)
 - [**Chapter 20:** Quick Quizzes](chapter-20-quick-quizzes.md#chapter-20-quick-quizzes-test-yourself) - Test your understanding
 - [**Chapter 21:** Going Further](chapter-21-going-further.md#chapter-21-going-further) - Next steps and resources
-
-### Appendix
-- [Math Symbols Quick Reference](appendix-math-symbols-quick-reference.md#math-symbols-quick-reference-your-decoder-ring) - Your decoder ring for all the notation
 
 ---
 
