@@ -1,0 +1,40 @@
+site_name: Construire un Transformer — traduction française
+site_description: Traduction française non officielle du cours Building a Transformer de Rimom Costa.
+site_author: Rimom Costa (cours original)
+site_url: https://lviaud.github.io/Building_a_Transformer/
+repo_url: https://github.com/lviaud/Building_a_Transformer
+repo_name: lviaud/Building_a_Transformer
+edit_uri: edit/main/fr/
+docs_dir: fr
+site_dir: site
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.footer
+    - content.code.copy
+  palette:
+    primary: indigo
+    accent: teal
+nav:
+  - Accueil: index.md
+  - 'Chapitre 4 — Encodage positionnel': chapter-04-positional-encoding.md
+  - Glossaire: glossaire.md
+  - Notes de traduction: notes-traduction.md
+plugins:
+  - search:
+      lang: fr
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+copyright: Cours original de Rimom Costa · Traduction française non officielle
