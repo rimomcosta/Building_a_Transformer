@@ -1,0 +1,9 @@
+/* Keep numeric diagrams aligned and readable on narrow screens. */
+.md-typeset pre > code {
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.md-typeset .arithmatex {
+  overflow-x: auto;
+}
